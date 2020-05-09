@@ -1,0 +1,164 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background: url(../img/images_1.jpg) no-repeat center top / cover; /* центр и растягивается на всю длину */
+  padding-bottom: 180px;
+}
+
+div {
+  box-sizing: border-box; /* при отступах шириа остается определенной */
+}
+
+nav {
+  float: right;
+  margin-top: 30px;
+}
+
+h1 {
+  font-size: 65px;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 15px;
+}
+
+.clearfix:after {
+  content: '';
+  display: table;
+  width: 100%;
+  clear: both;
+}
+
+.container {
+  width: 930px;
+  margin: 0 auto;
+}
+
+.logo {
+  margin-top: 21px;
+  float: left;
+}
+
+.menu {
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+
+.menu li {
+  float: left;
+  display: block;
+  margin-right: 41px;
+}
+
+.menu li a {
+  color: white;
+  text-decoration: none; /* текст большой */
+  text-transform: uppercase; /* буквы большие */
+  font-size: 14px;
+}
+
+.titles_first {
+  color: white;
+  font-size: 40px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 160px;
+}
+
+.button {
+  background: #fed136;
+  color: #484543;
+  border-radius: 3px;
+  display: block;
+  width: 240px;
+  padding: 20px 0;
+  margin: 0 auto;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 40px;
+}
+
+.button:hover {
+  background: yellow;
+}
+
+.title {
+  padding-top: 100px;
+}
+
+.title h2 {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.title p {
+  color: #777777;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.services {
+  margin-top: 50px;
+}
+
+.services_item {
+  width: 270px;
+  float: left;
+  text-align: center;
+}
+
+.services_item h3 {
+  font-size: 17px;
+  margin-bottom: 5px;
+}
+
+.services_item p {
+  font-size: 14px;
+  color: #777777;
+  line-height: 1.55em;
+}
+
+.services_item:last-child {
+  float: right;
+}
+
+.services_item:nth-child(2) {
+  margin-left: 60px;
+}
+
+#services {
+  margin-bottom: 120px;
+}
+
+#portfolio {
+  background: #f7f7f7;
+  padding-bottom: 120px;
+}
+
+.works {
+  margin-top: 50px;
+}
+
+.works img {
+  float: left;
+}
+
+.works img:nth-child(2) {
+  margin-left: 270px;
+}
+
+.works img:last-child {
+  float: right;
+}
